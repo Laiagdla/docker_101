@@ -10,4 +10,4 @@ def index():
 @api.get('/calc')
 def calc(x: int, y: int):
     return { 'result' : x + y,
-            'feeling exited?' : '😎 yeah!'}
+             'feeling exited?' : '😎 yeah!'}

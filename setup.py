@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
     content = f.readlines()
 requirements = [x.strip() for x in content if "git+" not in x]
 
-setup(name='dummy_calculator',
+setup(name='dummy-calculator',
       description="a dummy calculator with a dummy api",
       license="MIT",
       author="laiagdla",
