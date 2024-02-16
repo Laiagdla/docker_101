@@ -3,4 +3,6 @@ __pycache__
 .env
 *checkpoint.ipynb
 *.ipynb_checkpoints
-*.ipynb
+
+.streamlit
+*.toml
